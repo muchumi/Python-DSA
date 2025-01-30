@@ -9,3 +9,6 @@ def test_two_oldest_ages_case_two():
 
 def test_two_oldest_ages_case_three():
     assert(two_oldest_ages([10, 1])) == [1, 10]
+
+def test_two_oldest_ages_case_four():
+    assert(two_oldest_ages([2, 4, 8, 8, 17, 17])) == [17, 17]
